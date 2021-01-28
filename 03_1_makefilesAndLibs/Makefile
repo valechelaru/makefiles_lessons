@@ -10,4 +10,4 @@ adder.o : adder.c adder.h
 	gcc -c adder.c
 
 clean :
-	rm main *.o
+	rm main.exe *.o
