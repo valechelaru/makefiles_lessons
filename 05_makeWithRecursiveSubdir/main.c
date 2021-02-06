@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "AdderLib/adder.h"
-#include "SubLib/suber.h"
+#include "adder.h"
+#include "suber.h"
 
 int main()
 {
