@@ -1,8 +1,8 @@
 
+all : main
+
 include AdderLib/Makefile
 include SubLib/Makefile
-
-all : main
 
 main.o : main.c
 	gcc -c main.c -I"AdderLib" -I"SubLib"
